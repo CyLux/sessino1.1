@@ -206,29 +206,25 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="15dp"
-                android:background="#4254BC"
-                android:orientation="horizontal"
 
-                android:paddingTop="5dp"
 
-                android:paddingBottom="5dp">
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
+                <Button
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/ubuntu_bold"
-                    android:gravity="center"
-                    android:padding="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:background="#4254BC"
+                    android:orientation="horizontal"
+
+                    android:paddingTop="5dp"
+
+                    android:paddingBottom="5dp"
                     android:text="SIGN UP"
-                    android:textColor="#FFFFFF" />
-            </LinearLayout>
+                    android:textColor="#fff"
+
+                    />
+
+
 
         </LinearLayout>
 
