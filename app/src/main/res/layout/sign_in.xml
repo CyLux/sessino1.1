@@ -125,16 +125,15 @@
                 android:text="Forgot password ?" />
 
 
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="#4254BC"
-                    android:orientation="horizontal"
-                    android:text="SIGN IN"
-                    android:textColor="#fff"
-                    android:id="@+id/btnLogin"
-                    />
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4254BC"
+                android:onClick="onClickVhod"
+                android:orientation="horizontal"
+                android:text="SIGN IN"
+                android:textColor="#fff" />
 
 
         </LinearLayout>
@@ -147,9 +146,8 @@
             android:fontFamily="@font/ubuntu_light"
             android:gravity="center"
             android:text="Create A New Account ?"
-            app:layout_constraintBottom_toBottomOf="parent"
 
-            />
+            app:layout_constraintBottom_toBottomOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
