@@ -4,7 +4,7 @@ class LoginResponse {
     private int user_id;
     private String email;
     private String username;
-//Возможно user_id не надо
+//Инициализируем поля из API
 
 
     public int getUser_id() {

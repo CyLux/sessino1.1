@@ -4,7 +4,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
+//класс отвечающий за получения данных из заданного API
 public class ApiClient {
     private static Retrofit getRetrofit(){
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();

@@ -3,7 +3,7 @@ package com.example.testproject;
 public class LoginRequest {
     private String username;
     private String password;
-
+//Обозначаем поля, которые используются в классе
     public String getUsername() {
         return username;
     }

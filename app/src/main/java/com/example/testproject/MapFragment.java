@@ -16,9 +16,9 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-
+//Класс отвечающий за получение и показ google карт в приложении
 public class MapFragment extends Fragment {
-
+//Создание и инициализация fragment_map
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -28,10 +28,12 @@ public class MapFragment extends Fragment {
                 getChildFragmentManager().findFragmentById(R.id.google_map);
 
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
+
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                     @Override
+                    //обработчик нажатия по карте
                     public void onMapClick(LatLng latLng) {
                         MarkerOptions markerOptions = new MarkerOptions();
 
